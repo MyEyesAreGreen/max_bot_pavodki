@@ -1,2 +1,15 @@
-# max_bot_pavodki
-MAX bot for flood emergencies in Irkutsk region. 4-button menu: hotline 112, PVR addresses, aid collection points, and financial payouts for affected citizens.
+# Бот для оповещения населения о паводках для мессенджера MAX
+
+## Команды
+/start — показать главное меню
+
+## Кнопки
+:landline: Телефон горячей линии — номер 112 и МЧС
+:house: Пункты временного размещения — адреса ПВР
+:handshake: Сбор гуманитарной помощи — пункты приёма
+:money: Выплаты пострадавшим — суммы и порядок оформления
+
+## Локальный запуск
+1) 'pip install -r requirements.txt'
+2) Создать '.env' с 'BOT_TOKEN=...'
+3) 'python bot.py'
