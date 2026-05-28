@@ -11,5 +11,5 @@
 
 ## Локальный запуск
 1) 'pip install -r requirements.txt'
-2) Создать '.env' с 'BOT_TOKEN=...'
+2) Переименовать 'example.env' в '.env' и вместо точек указать 'BOT_TOKEN=...'
 3) 'python bot.py'
